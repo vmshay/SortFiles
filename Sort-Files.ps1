@@ -25,8 +25,6 @@ function Sort-Files
         [string]$Directory)
     $files = dir $Directory
 
-
-
     if(!(Test-Path -Path $Directory\_SORT)){mkdir $Directory\_SORT}
     cd $Directory\_SORT
 
